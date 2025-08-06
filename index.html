@@ -20,7 +20,7 @@
         
         h1 {
             text-align: center;
-            color: #5a3d7a;
+            color: #5b1453;
             font-size: 2.5em;
             margin-bottom: 10px;
             font-weight: 700;
@@ -48,7 +48,7 @@
         }
         
         .ad-header {
-            background: #5a3d7a;
+            background: #5b1453;
             color: white;
             padding: 20px 30px;
             display: flex;
@@ -120,7 +120,6 @@
         .url-bar {
             background: white;
             border: 1px solid #ced4da;
-            border-radius: 4px;
             height: 24px;
             flex: 1;
             margin-left: 40px;
@@ -148,20 +147,19 @@
         .header-ad {
             width: 100%;
             height: 60px;
-            background: #5a3d7a;
+            background: #5b1453;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
         }
         
         .sidebar-ad {
             width: 160px;
             height: 200px;
-            background: #5a3d7a;
+            background: #5b1453;
             float: right;
             margin-left: 20px;
             margin-bottom: 20px;
@@ -170,15 +168,14 @@
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
             font-size: 12px;
             text-align: center;
         }
         
         .large-rect-ad {
             width: 200px;
-            height: 160px;
-            background: #5a3d7a;
+            height: 166px;
+            background: #5b1453;
             float: right;
             margin-left: 20px;
             margin-bottom: 20px;
@@ -187,31 +184,45 @@
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
             font-size: 12px;
             text-align: center;
         }
         
-        .post-interruptor {
-            width: 240px;
-            height: 200px;
-            background: #5a3d7a;
-            margin: 20px auto;
+        .post-interruptor-300x600 {
+            width: 275px;
+            height: 137px;
+            background: #5b1453;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
-            font-size: 12px;
+            font-size: 11px;
             text-align: center;
-            clear: both;
+        }
+        
+        .article-sidebar {
+            width: 200px;
+            background: #f8f9fa;
+            padding: 15px;
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .sidebar-title {
+            font-weight: 600;
+            color: #5b1453;
+            margin-bottom: 10px;
+            font-size: 12px;
         }
         
         .skyscraper-ad {
             width: 100px;
             height: 380px;
-            background: #5a3d7a;
+            background: #5b1453;
             float: right;
             margin-left: 20px;
             display: flex;
@@ -219,7 +230,6 @@
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
             font-size: 11px;
             text-align: center;
             writing-mode: vertical-rl;
@@ -236,13 +246,20 @@
         
         .content-block.title {
             height: 20px;
-            width: 70%;
+            width: 57%;
+            background: #6c757d;
+            margin-bottom: 15px;
+        }
+
+        .content-block.full {
+            height: 20px;
+            width: 100%;
             background: #6c757d;
             margin-bottom: 15px;
         }
         
         .content-block.short {
-            width: 60%;
+            width: 57%;
         }
         
         .content-block.medium {
@@ -250,12 +267,10 @@
         }
         
         .content-image {
-            width: 120px;
-            height: 80px;
+            width: 57%;
+            height: 160px;
             background: #adb5bd;
-            float: left;
             margin: 0 15px 10px 0;
-            border-radius: 4px;
         }
         
         /* Mobile mockup */
@@ -296,28 +311,26 @@
         .mobile-ad {
             width: 100%;
             height: 40px;
-            background: #5a3d7a;
+            background: #5b1453;
             margin-bottom: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
             font-size: 11px;
         }
         
         .mobile-rect-ad {
             width: 100%;
             height: 120px;
-            background: #5a3d7a;
+            background: #5b1453;
             margin: 15px 0;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
             font-size: 12px;
             text-align: center;
         }
@@ -332,7 +345,7 @@
         }
         
         .newsletter-header {
-            background: #5a3d7a;
+            background: #5b1453;
             color: white;
             padding: 20px;
             text-align: center;
@@ -343,14 +356,13 @@
         .newsletter-ad {
             width: 100%;
             height: 80px;
-            background: #5a3d7a;
+            background: #5b1453;
             margin: 20px 0;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: 600;
-            border-radius: 4px;
             font-size: 12px;
         }
         
@@ -409,13 +421,15 @@
                         </div>
                         <div class="content-area">
                             <div class="header-ad">ADVERTISEMENT</div>
-                            <div class="content-block title"></div>
-                            <div class="content-image"></div>
+                            <div class="content-block title full"></div>
                             <div class="content-block"></div>
-                            <div class="content-block medium"></div>
-                            <div class="content-block short"></div>
                             <div class="content-block"></div>
-                            <div class="content-block medium"></div>
+                            <div class="content-block"></div>
+                            <div class="content-block"></div>
+                            <div class="content-block"></div>
+                            <div class="content-block"></div>
+                            <div class="content-block"></div>
+                            <div class="content-block"></div>
                         </div>
                     </div>
                 </div>
@@ -437,14 +451,14 @@
                         </div>
                         <div class="content-area">
                             <div class="large-rect-ad">ADVERTISEMENT</div>
-                            <div class="content-block title"></div>
                             <div class="content-image"></div>
-                            <div class="content-block"></div>
-                            <div class="content-block medium"></div>
+                            <div class="content-block title"></div>
                             <div class="content-block short"></div>
-                            <div class="content-block"></div>
-                            <div class="content-block medium"></div>
-                            <div class="content-block"></div>
+                            <div class="content-block short"></div>
+                            <div class="content-block short"></div>
+                            <div class="content-block short"></div>
+                            <div class="content-block short"></div>
+                            <div class="content-block short"></div>
                         </div>
                     </div>
                 </div>
@@ -455,8 +469,8 @@
         <!-- Post Interruptor -->
         <div class="ad-mockup">
             <div class="ad-header">
-                <h2 class="ad-title">POST INTERRUPTOR (6:5 ASPECT RATIO)</h2>
-                <div class="ad-specs">Less disruptive rectangle</div>
+                <h2 class="ad-title">POST INTERRUPTOR (1:2 ASPECT RATIO)</h2>
+                <div class="ad-specs">300×600px reference</div>
             </div>
             <div class="mockup-container">
                 <div class="desktop">
@@ -465,14 +479,17 @@
                             <div class="url-bar"></div>
                         </div>
                         <div class="content-area">
+                            <div class="article-sidebar">
+                                <div class="sidebar-title">Sidebar</div>
+                                <div class="content-block" style="width: 100%; height: 8px;"></div>
+                                <div class="content-block" style="width: 80%; height: 8px;"></div>
+                                <div class="content-block" style="width: 60%; height: 8px;"></div>
+                            </div>
                             <div class="content-block title"></div>
-                            <div class="content-image"></div>
                             <div class="content-block"></div>
                             <div class="content-block medium"></div>
-                            <div class="post-interruptor">ADVERTISEMENT</div>
                             <div class="content-block short"></div>
-                            <div class="content-block"></div>
-                            <div class="content-block medium"></div>
+                            <div class="post-interruptor-300x600">ADVERTISEMENT</div>
                         </div>
                     </div>
                 </div>
